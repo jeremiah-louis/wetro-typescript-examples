@@ -1,0 +1,32 @@
+{
+  "name": "wetro-typescript-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiah-louis/wetro-typescript-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jeremiah-louis/wetro-typescript-examples/issues"
+  },
+  "homepage": "https://github.com/jeremiah-louis/wetro-typescript-examples#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.92.1",
+    "wetro-sdk": "^1.5.2"
+  }
+}

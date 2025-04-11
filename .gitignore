@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+.venv
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.* 
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Coverage directory (if you use something like Jest)
+coverage/
+
+# Optional: Ignore local development files
+*.local
+
+# Optional: Ignore output from tsc-watch
+*.out.*
