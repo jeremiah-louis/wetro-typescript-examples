@@ -3,12 +3,12 @@ from decouple import config
 
 WETRO_API_KEY = config("WETRO_API_KEY")
 
-# Access Modules
+# Initalize the wetrocloud Client
 client = Wetrocloud(api_key=WETRO_API_KEY)
 
 # Create a collection
 collection_id = client.collection.create_collection(
-    collection_id="Freedom-Fighters"
+    collection_id="Ai-agent"
 )
 
 print(collection_id)

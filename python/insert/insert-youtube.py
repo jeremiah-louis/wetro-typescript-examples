@@ -8,8 +8,8 @@ client = Wetrocloud(api_key=WETRO_API_KEY)
     
 # Insert a YouTube video into a Collection
 insert_response = client.collection.insert_resource(
-    collection_id="louis",
-    resource="https://youtu.be/JOYSDqJdiro?si=EyXyomAspj53lqnf", 
+    collection_id="Ai-agent",
+    resource="https://youtu.be/zgrOwow_uTQ?si=cUvy5-Vspbm3opnV", 
     type="youtube"
 )
     
